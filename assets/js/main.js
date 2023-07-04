@@ -226,7 +226,11 @@
    * Initiate portfolio lightbox 
    */
   const productLightbox = GLightbox({
-    selector: '.product-lightbox'
+    selector: '.product-lightbox',
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: true,
+    moreLength: 20
   });
 
   /**
